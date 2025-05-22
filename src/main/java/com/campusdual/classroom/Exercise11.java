@@ -28,7 +28,8 @@ public class Exercise11 {
         System.out.println(blackRemote.volume);
         System.out.println(redRemote.getColor());
         System.out.println(blackRemote.getColor());
-
+        redRemote.turnOff();
+        blackRemote.turnOff();
     }
 
 }
